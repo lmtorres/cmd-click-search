@@ -1,0 +1,15 @@
+{
+  "name": "cmd-click-search",
+  "version": "1.0.0",
+  "description": "CMD + Click to search text on google",
+  "main": "content.js",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luis Torres",
+  "license": "ISC"
+}

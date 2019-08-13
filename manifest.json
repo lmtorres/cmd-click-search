@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "CMD + Click To Search",
+  "version": "0.1",
+  "permissions": ["tabs"],
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["node_modules/jquery/dist/jquery.slim.js", "content.js"]
+    }
+  ]
+}
