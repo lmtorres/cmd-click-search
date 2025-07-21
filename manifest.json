@@ -1,11 +1,11 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "CMD + Click To Search",
   "version": "0.1",
   "permissions": ["tabs"],
+  "host_permissions": ["<all_urls>"],
   "background": {
-    "persistent": false,
-    "scripts": ["background.js"]
+    "service_worker": "background.js"
   },
   "content_scripts": [
     {
